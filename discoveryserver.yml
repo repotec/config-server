@@ -1,0 +1,17 @@
+server:
+    port: 9000
+
+eureka:
+    instance:
+        hostname: localhost
+    server:
+        enable-self-preservation: true
+        eviction-interval-timer-in-ms: 6000         #60 * 1000
+        renewal-percent-threshold: 0.85
+        renewal-threshold-update-interval-ms: 9000  #15 * 60 * 1000
+        expected-client-renewal-interval-seconds: 30
+    client:
+        register-with-eureka: false
+        fetch-registry: false
+        service-url:
+            defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
