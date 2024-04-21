@@ -1,6 +1,6 @@
 accounts:
   msg: Welcome to the Bank Accounts Default application
-  build-version: 3
+  build-version: 1
 
   mailDetails:
     hostName: default-accounts@micro-bank.com
