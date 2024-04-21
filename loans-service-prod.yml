@@ -3,10 +3,10 @@ loans:
   build-version: 3
 
   mailDetails:
-    hostName: dev-cards@micro-bank.com
+    hostName: prod-loan@micro-bank.com
     port: 8083
-    from: dev-cards@micro-bank.com
-    subject: "Your Card Details from Bank Production Environment"
+    from: prod-loan@micro-bank.com
+    subject: "Your Loan Details from Bank Production Environment"
     
   activeBranches:
     - Cairo
