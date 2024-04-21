@@ -1,6 +1,6 @@
 loans:
   msg: Welcome to the Bank Loans Dev application
-  build-version: 1
+  build-version: 2
 
   mailDetails:
     hostName: dev-loan@micro-bank.com
