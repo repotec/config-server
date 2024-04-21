@@ -1,0 +1,19 @@
+accounts:
+  msg: Welcome to the Bank Accounts Default application
+  build-version: 3
+
+  mailDetails:
+    hostName: default-accounts@micro-bank.com
+    port: 8081
+    from: default-accounts@micro-bank.com
+    subject: "Your Account Details from Bank Default Environment"
+    activeBranches:
+      - Cairo
+      - Doha
+      - Jerusalem
+    contactDetails:
+      name: "Hassan - First Line Support"
+      email: "hassan@micro-bank.com"
+    onCallSupport:
+      - (555) 555-1234
+      - (555) 523-1345
