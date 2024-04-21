@@ -7,13 +7,16 @@ accounts:
     port: 8081
     from: prod-accounts@micro-bank.com
     subject: "Your Account Details from Bank Production Environment"
-    activeBranches:
-      - Cairo
-      - Doha
-      - Jerusalem
-    contactDetails:
-      name: "Gamal - First Line Support"
-      email: "gamal@micro-bank.com"
-    onCallSupport:
-      - (555) 555-1234
-      - (555) 523-1345
+    
+  activeBranches:
+    - Cairo
+    - Doha
+    - Jerusalem
+
+  contactDetails:
+    name: "Gamal - First Line Support"
+    email: "gamal@micro-bank.com"
+
+  onCallSupport:
+    - (555) 987-1234
+    - (555) 987-1345
