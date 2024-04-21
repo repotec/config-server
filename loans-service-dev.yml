@@ -3,9 +3,9 @@ loans:
   build-version: 1
 
   mailDetails:
-    hostName: dev-cards@micro-bank.com
+    hostName: dev-loan@micro-bank.com
     port: 8083
-    from: dev-cards@micro-bank.com
+    from: dev-loans@micro-bank.com
     subject: "Your Card Details from Bank Dev Environment"
     
   activeBranches:
