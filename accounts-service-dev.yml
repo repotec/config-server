@@ -1,19 +1,22 @@
 accounts:
   msg: Welcome to the Bank Accounts Dev application
-  build-version: 3
+  build-version: 2
 
   mailDetails:
     hostName: dev-accounts@micro-bank.com
     port: 8081
     from: dev-accounts@micro-bank.com
     subject: "Your Account Details from Bank Dev Environment"
-    activeBranches:
-      - Cairo
-      - Doha
-      - Jerusalem
-    contactDetails:
-      name: "Ahmed - First Line Support"
-      email: "ahmed@micro-bank.com"
-    onCallSupport:
-      - (555) 555-1234
-      - (555) 523-1345
+    
+  activeBranches:
+    - Cairo
+    - Doha
+    - Jerusalem
+    
+  contactDetails:
+    name: "Ahmed - First Line Support"
+    email: "ahmed@micro-bank.com"
+    
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1345
