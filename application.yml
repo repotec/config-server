@@ -1,0 +1,13 @@
+shared:
+  application:
+    contextPath: "/micro-bank/services/v1"
+  
+  cloud:
+    openfeign:
+      proxy-url:
+        cards: "/micro-bank/services/v1/cards"
+        loans: "/micro-bank/services/v1/loans"
+  
+  info:
+    system: "micro-bank"
+    version: "1.0"
