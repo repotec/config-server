@@ -4,7 +4,7 @@ accounts:
 
   mailDetails:
     hostName: dev-cards@micro-bank.com
-    port: 8081
+    port: 8082
     from: dev-cards@micro-bank.com
     subject: "Your Card Details from Bank Dev Environment"
     
