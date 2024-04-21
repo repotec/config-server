@@ -1,4 +1,4 @@
-accounts:
+cards:
   msg: Welcome to the Bank Cards Production application
   build-version: 3
 
